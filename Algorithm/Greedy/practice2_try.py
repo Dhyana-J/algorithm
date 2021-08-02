@@ -1,6 +1,5 @@
 # 실전문제 2 - 숫자 카드 게임
 import time
-start = time.time()
 
 n,m = map(int,input().split())
 
@@ -13,6 +12,7 @@ for _ in range(n):
         max = temp
 print(max)
 
+start = time.time()
 # for _ in range(n):
     # temp = list(map(int,input().split()))
     # temp.sort()

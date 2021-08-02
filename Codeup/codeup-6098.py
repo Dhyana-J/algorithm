@@ -13,10 +13,10 @@ ground[x][y] = 9
 IS_END = False
 
 
-for col in range(10-x):
+for col in range(10):
     if IS_END: 
         break
-    for row in range(10-y):
+    for row in range(10):
         if ground[x][y+1] == 1:
             break
         else:

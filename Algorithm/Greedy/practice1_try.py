@@ -5,7 +5,6 @@
 
 import time
 
-start = time.time()
 
 n,m,k = map(int,input().split()) 
 
@@ -14,6 +13,7 @@ while m < k:
     n,m,k = map(int,input().split())
 
 arr = list(map(int,input().split()))
+start = time.time()
 arr.sort(reverse=True)
 
 # arr = sorted(list(map(int,input().split())),reverse=True)

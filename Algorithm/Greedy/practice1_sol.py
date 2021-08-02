@@ -1,8 +1,8 @@
 import time
-start = time.time()
 n,m,k = map(int,input().split())
 
 data = list(map(int,input().split()))
+start = time.time()
 
 data.sort()
 
