@@ -1,3 +1,7 @@
-for i in range(1,5+1):
-    print(i)
-    i-=1
+
+
+l = []
+for i in range(1):
+    l.append(list(map(str,'hello world')))
+
+print(l)
