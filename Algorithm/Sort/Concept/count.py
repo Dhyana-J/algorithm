@@ -26,3 +26,4 @@ for i in range(len(arr)):
 for i in range(len(count)):
     for j in range(count[i]):
         print(i,end=' ')
+
